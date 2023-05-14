@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="lib/fontawesome/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <!-- html2canvas library -->
+    <script src="js/html2canvas.min.js"></script>
+
+    <!-- jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <title>Curriculum</title>
+  </head>
+  <body>
+    <div class="menu-content">
+      <span class="menu-item" id="menu">
+        <i class="fa-solid fa-square-caret-down"></i>
+      </span>
+      <a href="#" id="btn-download" class="menu-item">
+        <i class="ico fa-solid fa-print"></i>
+      </a>
+
+    
+    </div>
+
+    <div class="curriculum">
+      <div class="container">
+        <section class="sectionHeader">
+          <div class="containerImg">
+            <div class="imgPerfil">
+              <img src="img/imgPerfil.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="name">
+            <h4>LUIS FERNANDO PAXEL COJOLÓN</h4>
+            <h6>PROGRAMADOR JUNIOR</h6>
+          </div>
+        </section>
+
+        <section class="sectionDetalle">
+          <div class="containerEstudios">
+            <div class="mediosContacto">
+              <div class="title">
+                <h6>Medios de contacto</h6>
+              </div>
+
+              <ul>
+                <li>
+               
+                  <span class="icon"
+                    ><i class="ico fa-sharp fa-solid fa-mobile"> </i
+                  ></span>
+                 <span> <a href=" https://api.whatsapp.com/send/?phone=50251121954">+502 5112-1954</a>
+                 </span>
+                
+                </a>
+                </li>
+                <li>
+                  <span class="icon"
+                    ><i class="ico fa-sharp fa-solid fa-envelope"></i
+                  ></span>
+                  <span><a href="mailto:luisc522txe@gmail.com">luisc522txe@gmail.com</a></span>
+                </li>
+                <li>
+                  <span class="icon"
+                    ><i class="ico fa-brands fa-square-facebook"></i
+                  ></span>
+                  <span> <a href="https://www.facebook.com/luisfernando.paxel.3/">Facebook</a></span>
+                </li>
+                <li>
+                  <span class="icon"
+                    ><i class="ico fa-solid fa-location-dot"></i
+                  ></span>
+                  <span> Antigua Guatemala</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="formacionAcademica">
+              <div class="title">
+                <h6>Formación Académica</h6>
+              </div>
+
+              <ul>
+                <li>
+                  <div class="bx">
+                    <span>2020 - Actualidad</span>
+                    <span>Universidad Mariano Gálvez</span>
+                    <span>Ingenieria en sistemas</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="bx">
+                    <span>2018 - 2019</span>
+                    <span>Tecnológico Moderno</span>
+                    <span>Bachillerato en ciencias y letras</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="bx">
+                    <span>2015- 2017</span>
+                    <span>IMEB Santa Ana</span>
+                    <span>Nivel Básico</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="bx">
+                    <span>2009-2014</span>
+                    <span>Escuela Luis Mena</span>
+                    <span>Nivel primario</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="idiomas">
+              <div class="title">
+                <h6>Idiomas</h6>
+              </div>
+
+              <ul>
+                <li>
+                  <div class="bx">
+                    <span> <b>Idioma nativo</b> </span>
+                    <span>Español/Castellano</span>
+                    <span class="percent"><div style="width: 90%"></div></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="bx">
+                    <span><b> Idioma Inglés</b></span>
+                    <span>Nivel Básico (En proceso)</span>
+                    <span class="percent"> <div style="width: 10%"></div></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="containerExperiencia">
+            <div class="title"><h6>Acerca de mi</h6></div>
+            <div class="quienSoy">
+              <p>
+                Programador junior, soy una persona responsable, autodidacta y
+                disciplinada, que busca innovar y aportar mis conocimientos para
+                mejorar la comodidad del usuario.
+              </p>
+
+              <p>
+                He trabajado en algunos proyectos en lenguajes como c++ y java,
+                he creado un sistema de registro para un gimnasio.
+              </p>
+            </div>
+
+            <div class="experiencias">
+              <div class="title">
+                <h6>Experiencias</h6>
+              </div>
+              <div class="containerExp">
+                <div class="carpeta">
+                  <button>Ver proyectos</button>
+                </div>
+                <div class="informacion">
+                  <h4>PROYECTOS WEB</h4>
+                  <span
+                    >Proyectos web estáticos y dinámicos utilizando como backend
+                    java y como gestor de base de datos Mysql.</span
+                  >
+                </div>
+              </div>
+              <div class="containerExp">
+                <div class="carpeta"><button>Ver proyectos</button></div>
+                <div class="informacion">
+                  <h4>PROYECTOS DE ESCRITORIO(JAVA)</h4>
+                  <span
+                    >Desarrollo de aplicaciones básicas y CRUD, con mysql.</span
+                  >
+                </div>
+              </div>
+              <div class="containerExp">
+                <div class="carpeta"><button>Ver proyectos</button></div>
+                <div class="informacion">
+                  <h4>PROYECTOS C++</h4>
+                  <span
+                    >Desarrollo de programas básicos, manejo de archivos, crud
+                    con BD(mysql).
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="competencias">
+              <div class="title"><h6>Competencias</h6></div>
+
+              <div class="box">
+                <div class="txtCompetencia">
+                  <h5>HTML</h5>
+                  <h5>80%</h5>
+                </div>
+                <span class="percent"><div style="width: 40%"></div></span>
+              </div>
+
+              <div class="box">
+                <div class="txtCompetencia">
+                  <h5>CSS</h5>
+                  <h5>40%</h5>
+                </div>
+                <span class="percent"><div style="width: 40%"></div></span>
+              </div>
+
+              <div class="box">
+                <div class="txtCompetencia">
+                  <h5>JAVASCRIPT</h5>
+                  <h5>30%</h5>
+                </div>
+                <span class="percent"><div style="width: 30%"></div></span>
+              </div>
+
+              <div class="box">
+                <div class="txtCompetencia">
+                  <h5>JAVA</h5>
+                  <h5>20%</h5>
+                </div>
+                <span class="percent"><div style="width: 20%"></div></span>
+              </div>
+              <div class="box">
+                <div class="txtCompetencia">
+                  <h5>NODE JS</h5>
+                  <h5>10%</h5>
+                </div>
+                <span class="percent"><div style="width: 10%"></div></span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
+
+
